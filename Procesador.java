@@ -26,4 +26,9 @@ public class Procesador
     public boolean getTieneGraficosIntegrados() {
         return graficosIntegrados;
     }
+    
+    public void imprimirDetalles() {
+        System.out.println("Esta es la velocidad del procesador: " + velocidad);
+        System.out.println("Este ordenador tiene graficos integrados: " + graficosIntegrados);
+    }
 }
