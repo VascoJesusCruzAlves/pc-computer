@@ -22,25 +22,23 @@ public class Ordenador {
         return procesador;
     }
     
-    public String setMarca(String marca) {
+    public void setMarca(String marca) {
        this.marca = marca;
-       return this.marca;
     }
     
-    public long setNumeroDeSerie(long numeroDeSerie) {
+    public void setNumeroDeSerie(long numeroDeSerie) {
         this.numeroDeSerie = numeroDeSerie;
-        return this.numeroDeSerie;
     }
     
-    public Procesador setProcesador(Procesador procesador) {
+    public void setProcesador(Procesador procesador) {
         this.procesador = procesador;
-        return this.procesador;
     }
     
         public void imprimirDetalles() {
         System.out.println("Esta es la marca del ordenaor: " + marca);
         System.out.println("Este es el numero de serie de este ordenador: " + numeroDeSerie);
-        System.out.println("Este es el procesador que tiene el ordenador " + procesador);
+        System.out.println("El procesador de este ordenador tiene una velocidad de " + procesador.getVelocidad() + "Ghz");
+        System.out.println("El procesador de este ordenador tiene graficos integrados: " + procesador.getTieneGraficosIntegrados());
     }
 }
 

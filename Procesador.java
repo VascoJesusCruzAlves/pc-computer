@@ -9,14 +9,12 @@ public class Procesador
         graficosIntegrados = true;
     }
     
-    public double setVelocidad(double velocidad) {
+    public void setVelocidad(double velocidad) {
        this.velocidad = velocidad;
-       return this.velocidad;
     }
     
-    public boolean setGraficosIntegrados(boolean graficosIntegrados) {
+    public void setGraficosIntegrados(boolean graficosIntegrados) {
         this.graficosIntegrados = graficosIntegrados;
-        return this.graficosIntegrados;
     }
     
     public double getVelocidad() {
