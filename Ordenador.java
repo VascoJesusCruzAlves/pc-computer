@@ -36,5 +36,11 @@ public class Ordenador {
         this.procesador = procesador;
         return this.procesador;
     }
+    
+        public void imprimirDetalles() {
+        System.out.println("Esta es la marca del ordenaor: " + marca);
+        System.out.println("Este es el numero de serie de este ordenador: " + numeroDeSerie);
+        System.out.println("Este es el procesador que tiene el ordenador " + procesador);
+    }
 }
 
