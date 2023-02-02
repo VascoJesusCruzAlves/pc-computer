@@ -21,5 +21,20 @@ public class Ordenador {
     public Procesador getProcesador() {
         return procesador;
     }
+    
+    public String setMarca(String marca) {
+       this.marca = marca;
+       return this.marca;
+    }
+    
+    public long setNumeroDeSerie(long numeroDeSerie) {
+        this.numeroDeSerie = numeroDeSerie;
+        return this.numeroDeSerie;
+    }
+    
+    public Procesador setProcesador(Procesador procesador) {
+        this.procesador = procesador;
+        return this.procesador;
+    }
 }
 
